@@ -1,0 +1,472 @@
+*{
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   list-style: none;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  
+   
+}
+
+
+.sm-icn i{
+padding:10px;
+}
+.sm-icn i:hover{
+  cursor: pointer;
+    opacity: 0.7;
+}
+.headcontent{
+    color: white;
+    padding: 10px;
+
+}
+.headbtn{
+    padding: 10px;
+    
+}
+.headbtn button{
+   
+    padding: 5px;
+    border: green;
+    color: green;
+}
+button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+header{
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.nav{
+    
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+  
+}
+.nav-logo img{
+    max-width: 200px;
+   
+ }
+
+.nav .nav-menu li{
+ 
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 40px;
+  border-radius: 18px;
+ 
+}
+
+
+#home {
+    background-color: blue; 
+    
+}
+#home a{
+    color: white;
+}
+.nav .nav-menu li a{
+    color: black;
+}
+.nav .nav-menu li:hover{
+    background-color: blue;
+    
+      
+ 
+}
+
+.nav .nav-menu li:hover >a{
+    text-decoration: none;
+    color: white;
+}
+.About-dd, .Services-dd, .FP-dd,.Donation-dd{
+  position: absolute;
+  padding: 5px;
+  background-color: white;
+display: none;
+}
+.About-dd a , .Services-dd a ,.FP-dd a , .Donation-dd a{
+padding: 0 10px;
+}
+    
+#About:hover .About-dd , #Ser:hover .Services-dd, #FP:hover .FP-dd , #donation:hover .Donation-dd{
+display: grid;
+
+}
+.About-dd a:hover, .Services-dd a:hover, .FP-dd a:hover , .Donation-dd a:hover{
+    text-decoration: none;
+background-color: rgba(0,0, 0, 0.1);
+}
+
+.slide-image{
+    margin: auto;
+  
+    padding: 5px;
+    text-align: center;
+}
+.slide-image img{
+    width: 100%;
+    height: auto;;
+}
+
+
+  .news{
+    margin: auto;
+    width: 80%;
+      padding: 2px;
+      background-color: blue;
+      
+  }
+  .news marquee{
+      padding: 5px;
+      color: cornsilk;
+  }
+  .Intro-content{
+/* text-align: center; */
+padding: 10px;
+margin: auto;
+width:100%;
+height:auto;
+
+  }
+  .Intro-content h1{
+      text-align: center;
+      color: rgb(34, 77, 34);
+    margin: auto;
+    width: 80%;
+      padding: 20px;
+  }
+  .Intro-content h1 #h1-blue{
+      color: rgb(44, 44, 190);
+  }
+  .Intro-content p {
+      margin: auto;
+      width: 70%;
+     text-align: justify;
+      padding: 20px;
+      color: rgb(88, 85, 85);
+      line-height: 2em;
+  }
+
+/* ............................ */
+
+  .con{
+       background-color: rgb(65, 65, 218);
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       padding: 30px;
+
+  }
+  .con div {
+      padding: 30px;
+      text-align: center;
+  }
+  .con div i{
+      font-size: 32px;
+  }
+  .con div i:hover{
+      font-size: 35px;
+      opacity: 0.5;
+  }
+
+  .con div p,h1{
+      color: white;
+      padding-top: 15px;
+  }
+  .con p{
+      font-weight: bold;
+  }
+  .con p span{
+      color: rgb(57, 252, 57);
+  }
+.con-2 .con2-hdg h1{
+    text-align: center;
+    color: rgb(34, 77, 34);
+  margin: auto;
+  width: 100%;
+  height: auto;
+
+    padding: 20px;
+}
+.con-2 .con2-hdg h1 #hd-blue, .gal_title h1 span{
+    color: rgb(44, 44, 190);
+}
+.con-2{
+    background-color: rgb(240, 244, 245)
+}
+    
+
+.con2-content .zone p{
+    color: black;
+}
+
+.con-2 .con2-content{
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    /* grid-template-columns: repeat(3,1fr); */  
+}
+.zone{
+    background-color: white;
+     padding: 15px;
+     box-shadow:4px 8px 16px grey;
+ }
+
+.con2-content .zone p{
+    text-align: center;
+}
+ .zone .images{
+    text-align: center;
+    padding: 10px;
+
+    
+}
+.zone .images img{
+    width:60px;
+    height: 60px;
+}
+
+.Proj_Events{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: auto;
+    width: 85%;
+}
+.Proj_Events .proj{
+    
+    flex: 550px;
+    
+}
+.Proj_Events .events{
+   
+    flex: 250px;
+    
+}
+.Proj_Events .proj .proj_title h1{
+    color: blue;
+    font-size: 25px;
+    padding: 20px;
+    font-weight: bold;
+  
+}
+
+.Proj_Events .events .e_title h1{
+    
+    color: blue;
+    font-size: 25px;
+    padding: 20px 0;
+    font-weight: bold;
+    border-bottom: rgb(196, 189, 189) 1px solid;
+}
+.Proj_Events .proj .proj_con .p_cards img{
+    padding: 10px 35px;
+}
+.Proj_Events .proj .proj_con .p_cards{
+    padding: 2px;
+     border: rgb(196, 189, 189) 1px solid;
+     background-color: rgb(240, 244, 245)
+}
+.Proj_Events .proj .proj_con{
+    
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    gap: 10px;
+}
+.Proj_Events .events .e_con {
+    
+    padding: 20px;
+     width: 350px;
+}
+.Proj_Events .events .e_con marquee{
+    padding-top: 10px;
+   height: 180px;
+
+}
+/* ............................................ */
+
+.gallery {
+    padding: 20px;
+  margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+  }
+  .img_con{
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .gallery .img_con{
+    padding: 30px;
+    text-align: center;
+  }
+  .gallery img {
+      width: 250px;
+      height: 150px;
+      padding: 3px;
+  }
+  .gal_title{
+      padding: 40px 35px;
+  }
+  .gal_title h1{
+      color: green;
+  }
+  .images2{
+    display:flex;
+    position: relative;
+    width: 250px;
+    height: 150px;
+  }
+  .mid {
+    transition: .19s ease;
+    font-size: 20px;
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+  }
+  .images2:hover .mid{
+      opacity: 1;
+  }
+
+  .images2:hover img {
+    opacity: 0.3;
+  }
+ 
+ /* .................................. */
+ footer{
+     width: 100%;
+     background-color: rgb(26, 24, 24);
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .mainft{
+     width: 100%;
+     margin: auto;
+     padding: 70px 10px;
+     color: blanchedalmond;
+     display: flex;
+     flex-wrap: wrap;
+    justify-content: space-evenly;
+     
+     
+ }
+ .ft{
+     width: 300px;
+ }
+ .ft i:hover{
+opacity: 0.5;
+cursor: pointer;
+ }
+.mainft .ft-mid >p{
+    border-bottom: green 1px solid;
+}
+.bottom-ft{
+    width: 100%;
+    background-color: rgb(65, 65, 218);
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+}
+.bottom-ft p{
+    font-size: 14px;
+    margin-top: 10px;
+  padding: 0 20px;
+}
+
+  /* MEDIAA QUERY */
+  @media screen and (max-width:600px){
+    .nav {
+          display: grid;
+          max-height: 300px;
+          overflow: scroll;
+      overflow: auto;
+      }
+     
+      .nav .nav-menu ul{
+          display: grid;   
+      }
+      .nav .nav-menu ul .About-dd , .Services-dd , .FP-dd ,.Donation-dd {
+          position: static; }
+          .slide-image img{
+            width: 100%;
+            height: 22vh;;
+        } 
+        .Intro-content{
+            margin: auto;
+            width:100%;
+            height:auto;
+              }
+              .Intro-content p {
+                width: 70%;
+            }
+            .Intro-content h1{
+              /* width:100%; */
+              font-size: 25px;
+               
+            }
+            .con-2 .con2-hdg h1{
+                font-size: 25px;
+            }
+            .con-2 .con2-content{
+                width: 100%;
+                margin: auto;
+            }
+            .Proj_Events{
+               
+                margin: auto;
+                width: 100%;}
+                .Proj_Events .events .e_con {
+    
+                    padding: 20px;
+                     width: 250px;
+                } 
+                .Proj_Events .proj .proj_title h1{
+                 
+                    font-size: 20px;
+                   
+                  
+                }
+                
+                .Proj_Events .events .e_title h1{
+                  
+                    font-size: 20px;
+                   
+                }
+                .gal_title h1{
+                    font-size: 25px;
+                }
+
+
+                .mainft{
+                    font-size: 14px;
+                    
+                    
+            }
+          
+        }
